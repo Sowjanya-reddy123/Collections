@@ -7,8 +7,8 @@ public class Company {
         employee.add("sahithi");
         employee.add(0,"Sowjanya");
         employee.add("joshna");
-        employee.add("pandu");
-        employee.add(1,"mahi");
+        employee.add("swetha");
+        employee.add(1,"nikitha");
         employee.add("gowthami");
 
 
