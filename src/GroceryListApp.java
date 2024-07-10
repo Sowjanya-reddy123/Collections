@@ -3,21 +3,21 @@ import java.util.List;
 import java.util.Scanner;
 
 public class GroceryListApp {
-    // Attribute to store grocery items
+
     private List<String> groceryList;
 
-    // Constructor to initialize the grocery list
+
     public GroceryListApp() {
         groceryList = new ArrayList<>();
     }
 
-    // Method to add an item to the grocery list
+
     public void addItem(String item) {
         groceryList.add(item);
         System.out.println(item + " has been added to the list.");
     }
 
-    // Method to remove an item from the grocery list
+
     public void removeItem(String item) {
         if (groceryList.remove(item)) {
             System.out.println(item + " has been removed from the list.");

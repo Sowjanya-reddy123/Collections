@@ -62,8 +62,8 @@ class StudentManagementApp {
 
         public static void main(String[] args) {
             StudentManagementApp app=new StudentManagementApp();
-            app.addStudent(new Student("1", "shravani"));
-            app.addStudent(new Student("2", "soujanya"));
+            app.addStudent(new Student("1", "sowjanya"));
+            app.addStudent(new Student("2", "chinnu"));
             app.addStudent(new Student("3", "chikitha"));
             app.displayStudents();
             app.sortStudentsByName();
